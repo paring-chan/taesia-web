@@ -5,6 +5,10 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import Button from "../components/Button";
 
 class Home extends Component {
+    state = {
+        count: 0
+    }
+
     ref = {
         sec1: React.createRef<HTMLDivElement>(),
         sec2: React.createRef<HTMLDivElement>(),
@@ -68,13 +72,42 @@ class Home extends Component {
         })
     }
 
+    counter(elem: Element, max: number) {
+        const Data = {val: 0}
+        gsap.to(Data, 3, {
+            val: max,
+            onUpdate: () => {
+                this.setState({
+                    count: Data.val
+                })
+            }
+        })
+    }
+
     componentDidMount() {
         this.trigger(this.ref.sec1.current!)
         this.trigger(this.ref.sec2.current!, 'right')
         this.trigger(this.ref.sec3.current!, 'right')
         this.trigger(this.ref.sec4.current!)
         this.trigger(this.ref.sec5.current!, 'bottom')
+        const servers = 150
+        ScrollTrigger.create({
+            trigger: this.ref.sec4.current!,
+            onEnter: () => {
+                this.counter(this.ref.sec4.current!, servers)
+            },
+            onLeave: () => {
+                this.setState({count: 0})
+            },
+            onEnterBack: () => {
+                this.counter(this.ref.sec4.current!, servers)
+            },
+            onLeaveBack: () => {
+                this.setState({count: 0})
+            }
+        })
     }
+
     render() {
         return (
             <div ref={this.ref.container} style={{
@@ -108,7 +141,7 @@ class Home extends Component {
                     marginTop: 100,
                     width: '50%',
                 }} ref={this.ref.sec4}>
-                    현재 태시아봇은 약150개의 서버에서 사용되고 있습니다.
+                    현재 태시아봇은 약 {Math.floor(this.state.count)}개의 서버에서 사용되고 있습니다.
                 </div>
                 <div style={{
                     fontSize: 30,
