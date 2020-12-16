@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ced76e7-2e66-4120-9118-5e01e119c7b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/partner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/PartnerServers.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Partner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Partner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Premium.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Premium.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608105862436</updated>
-      <workItem from="1608105863801" duration="12944000" />
+      <workItem from="1608105863801" duration="14389000" />
     </task>
     <servers />
   </component>
