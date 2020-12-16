@@ -6,6 +6,7 @@ import {AnimatePresence} from "framer-motion";
 import animateView from "./util/animateView";
 import styled, {css} from "styled-components";
 import Premium from "./views/Premium";
+import Partner from "./views/Partner";
 
 const CenteredFlex = styled.div`
   justify-content: center;
@@ -51,13 +52,14 @@ function App() {
                             <Nav>
                                 <NavItem to="/" active={location.pathname === '/' ? 1 : 0}>About</NavItem>
                                 <NavItem to="/premium" active={location.pathname === '/premium' ? 1 : 0}>프리미엄</NavItem>
-                                <NavItem to="/partner">파트너 및 채용</NavItem>
-                                <NavItem to="/banner">배너</NavItem>
+                                <NavItem to="/partner" active={location.pathname === '/partner' ? 1 : 0}>파트너 및 채용</NavItem>
+                                <NavItem to="/banner" active={location.pathname === '/banner' ? 1 : 0}>배너</NavItem>
                             </Nav>
                             <CenteredFlex>
                                 <Switch location={location}>
                                     <Route exact path="/" component={animateView(Home)}/>
                                     <Route exact path="/premium" component={animateView(Premium)}/>
+                                    <Route exact path="/partner" component={animateView(Partner)}/>
                                 </Switch>
                             </CenteredFlex>
                         </div>
