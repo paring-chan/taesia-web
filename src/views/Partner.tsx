@@ -7,8 +7,6 @@ class Partner extends Component {
         sec1: React.createRef<HTMLDivElement>(),
         sec2: React.createRef<HTMLDivElement>(),
         sec3: React.createRef<HTMLDivElement>(),
-        sec4: React.createRef<HTMLDivElement>(),
-        sec5: React.createRef<HTMLDivElement>(),
         container: React.createRef<HTMLDivElement>()
     }
 
