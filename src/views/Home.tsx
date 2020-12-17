@@ -90,7 +90,7 @@ class Home extends Component {
         this.trigger(this.ref.sec3.current!, 'right')
         this.trigger(this.ref.sec4.current!)
         this.trigger(this.ref.sec5.current!, 'bottom')
-        const servers = 150
+        const servers = 1500
         ScrollTrigger.create({
             trigger: this.ref.sec4.current!,
             onEnter: () => {
