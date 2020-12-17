@@ -119,7 +119,8 @@ class Home extends Component {
                     marginTop: 100,
                     width: '50%'
                 }}>
-                    <p>태시아봇은 (주)테일즈샵의 마스코트 <span>'태시아'를 모티브로 하여 탄생하였습니다.</span></p>
+                    태시아봇은 (주)테일즈샵의 마스코트 
+                    '태시아'를 모티브로 하여 탄생하였습니다.
                 </div>
                 <div ref={this.ref.sec2} style={{
                     fontSize: 30,
