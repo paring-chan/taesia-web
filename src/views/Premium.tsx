@@ -98,8 +98,8 @@ class Premium extends Component {
                     marginTop: 100,
                     width: '50%'
                 }}>
-                    프리미엄 서비스에 가입하시면 쿨타임 무시, 광고 제거, 
-                  펫 길들이기 호감도 2~5랜덤 상승의 혜택이 주어집니다.
+                  <p>프리미엄 서비스에 가입하시면 쿨타임 무시, 광고 제거,</p> 
+                  <p>펫 길들이기 호감도 2~5랜덤 상승의 혜택이 주어집니다.</p>
                 </div>
                 <div ref={this.ref.sec2} style={{
                     fontSize: 30,
