@@ -41,7 +41,7 @@ function App() {
     return (
         <BrowserRouter>
             <Container>
-                <h1 style={{textAlign: 'center', fontSize: '3rem'}}>태시아봇</h1>
+                <h1 style={{textAlign: 'center', fontSize: '3rem'}}>태시아봇 공식 웹사이트</h1>
                 <Route render={({location}) => {
                     return <AnimatePresence initial={false} exitBeforeEnter>
                         <div>
