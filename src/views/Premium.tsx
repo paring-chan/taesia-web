@@ -98,8 +98,7 @@ class Premium extends Component {
                     marginTop: 100,
                     width: '50%'
                 }}>
-                  <p>프리미엄 서비스에 가입하시면 쿨타임 무시, 광고 제거,</p> 
-                  <p>펫 길들이기 호감도 2~5랜덤 상승의 혜택이 주어집니다.</p>
+                  <p>`프리미엄 서비스에 가입하시면 쿨타임 무시, 광고 제거, '\n'펫 길들이기 호감도 2~5랜덤 상승의 혜택이 주어집니다.`</p>
                 </div>
                 <div ref={this.ref.sec2} style={{
                     fontSize: 30,
@@ -130,8 +129,7 @@ class Premium extends Component {
                     width: '50%',
                     marginLeft: '50%'
                 }}>
-                  <p>모든 금액은 봇운영에 사용될예정이며,</p> 
-                  <p>이와 개별적으로 후원도 받고있습니다.</p>
+                  <p>모든 금액은 봇운영에 사용될예정이며,이와 개별적으로 후원도 받고있습니다.</p>
                     <p>이 또한 <span>가위#1111</span>로 DM부탁드립니다.</p>
                 </div>
             </div>
