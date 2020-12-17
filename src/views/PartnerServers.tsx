@@ -12,7 +12,7 @@ class PartnerServers extends Component {
                 {
                     partner.map((it, key) => (
                         <div key={key} style={{
-                            background: '#202225',
+                            background: '#480168',
                             padding: 20,
                             borderRadius: 5,
                             marginTop: 10
