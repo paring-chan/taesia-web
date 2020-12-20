@@ -1,12 +1,12 @@
 [
   {
-    "name": "테일즈샵 봇 커뮤니티",
-    "description": "이곳에서 제작자와 함께 놀수있어요!",
-    "invite": "https://discord.gg/c3Ax8RK8"
-  },
-  {
-    "name": "태시아봇 비공식 웹사이트",
+    "name": "[관리자]태시아봇 비공식 웹사이트",
     "description": "이 사이트에서 명령어를 확인하실수있습니다!",
     "invite": "https://taesiabot.vercel.app/"
+  },
+  {
+    "name": "[관리자]테일즈샵 봇 커뮤니티",
+    "description": "이곳에서 제작자와 함께 놀수있어요!",
+    "invite": "https://discord.gg/c3Ax8RK8"
   }
 ]
