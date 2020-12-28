@@ -130,7 +130,7 @@ class Premium extends Component {
                     marginLeft: '50%'
                 }}>
                   <p>모든 금액은 봇운영에 사용될예정이며,이와 개별적으로 후원도 받고있습니다.</p>
-                    <p>이 또한 <span>가위#1111</span>로 DM부탁드립니다.</p>
+                    <p>이 또한 <span>가위#1111</span>로 DM또는 좌하단의 채팅으로 문의바랍니다.</p>
                 </div>
             </div>
         );
