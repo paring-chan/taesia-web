@@ -122,7 +122,7 @@ class Partner extends Component {
                     textAlign: 'center'
                 }} ref={this.ref.sec2}>
                     {'<지원문의>'}
-                    <p>가위#1111로 DM바랍니다</p>
+                    <p>가위#1111로 DM또는 좌하단의 채팅으로 문의바랍니다</p>
                 </div>
             </div>
         );
